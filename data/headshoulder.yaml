@@ -1,0 +1,15 @@
+# COCO 2017 dataset http://cocodataset.org
+
+# download command/URL (optional)
+download: bash ./scripts/get_coco.sh
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: D:\WJY\project\Headshoulder\Headshoulder_dataset.v2i.yolov5pytorch\train\images  # 118287 images
+val: D:\WJY\project\Headshoulder\Headshoulder_dataset.v2i.yolov5pytorch\valid\images  # 5000 images
+test: D:\WJY\project\Headshoulder\Headshoulder_dataset.v2i.yolov5pytorch\test\images  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+
+# number of classes
+nc: 2
+
+# class names
+names: ['headshoulder', 'headshoulds']
