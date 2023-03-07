@@ -9,7 +9,7 @@ val: D:\WJY\project\Headshoulder\Headshoulder_dataset.v2i.yolov5pytorch\valid\im
 test: D:\WJY\project\Headshoulder\Headshoulder_dataset.v2i.yolov5pytorch\test\images  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
 
 # number of classes
-nc: 2
+nc: 1
 
 # class names
-names: ['headshoulder', 'headshoulds']
+names: ['headshoulder']
